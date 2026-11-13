@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Página de erro não tem nada a indexar
+Disallow: /404.html
+
+# O sitemap lista o que INDEXA: categorias e busca ficam fora de propósito
+# (conteúdo duplicado do catálogo).
+Sitemap: https://kazoomscooters.com.br/sitemap.xml

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajuda — Kazoom Scooters</title>
+  <meta name="description" content="Guia de escolha do scooter certo, envios e retirada, trocas e devoluções, garantia e onde estamos: canais e horário de atendimento da Kazoom Scooters.">
+  <meta name="theme-color" content="#141711">
+  <link rel="canonical" href="https://kazoomscooters.com.br/ajuda.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ajuda — Kazoom Scooters">
+  <meta property="og:description" content="Guia de escolha por perfil de uso, envios, trocas, garantia e canais de atendimento.">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tema aplicado antes da primeira pintura, para não piscar -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("kazoom:tema");
+        if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "escuro" : "claro";
+        document.documentElement.dataset.tema = t;
+      } catch (e) {
+        document.documentElement.dataset.tema = "claro";
+      }
+      document.documentElement.classList.add("js");
+    })();
+  </script>
+  <!-- Dados estruturados: apenas o que o próprio site declara.
+       Sem telefone, sem endereço, sem avaliação — nada disso existe ainda
+       (VALIDAR.md). Domínio também é marcador de projeto. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportingGoodsStore",
+    "name": "Kazoom Scooters",
+    "url": "https://kazoomscooters.com.br/",
+    "currenciesAccepted": "BRL",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Catalogo Kazoom Scooters",
+      "itemListElement": [
+        { "@type": "OfferCatalog", "name": "Urbano" },
+        { "@type": "OfferCatalog", "name": "Dobraveis" },
+        { "@type": "OfferCatalog", "name": "Off-road" },
+        { "@type": "OfferCatalog", "name": "Performance" },
+        { "@type": "OfferCatalog", "name": "Acessorios" }
+      ]
+    }
+  }
+  </script>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/kazoom.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23141711'/%3E%3Ctext x='32' y='44' font-family='Arial,sans-serif' font-size='34' font-weight='700' text-anchor='middle' fill='%23c9f24b'%3EK%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!--@FAIXA-->
+  <!-- Este é um projeto-base: os itens da faixa são ILUSTRATIVOS e precisam
+       da validação do cliente antes de publicar. Sem "cupom", sem prazo
+       inventado. -->
+  <div class="faixa-anuncio" role="region" aria-label="Informações da loja">
+    <div class="faixa-anuncio__fita">
+      <span class="faixa-anuncio__item">Venda pelo WhatsApp, com resposta da equipe</span>
+      <span class="faixa-anuncio__item">Parcelamento em até 10x sem juros (a confirmar)</span>
+      <span class="faixa-anuncio__item">Retirada no showroom sem custo</span>
+      <span class="faixa-anuncio__item">Ficha técnica completa em cada modelo</span>
+      <span class="faixa-anuncio__item" aria-hidden="true">Venda pelo WhatsApp, com resposta da equipe</span>
+      <span class="faixa-anuncio__item" aria-hidden="true">Parcelamento em até 10x sem juros (a confirmar)</span>
+      <span class="faixa-anuncio__item" aria-hidden="true">Retirada no showroom sem custo</span>
+      <span class="faixa-anuncio__item" aria-hidden="true">Ficha técnica completa em cada modelo</span>
+    </div>
+  </div>
+
+  <!--@FIMFAIXA-->
+
+  <!--@HEADER-->
+  <header class="header" data-header>
+    <div class="container header__interno">
+      <a class="logo" href="index.html" aria-label="Kazoom Scooters, página inicial">
+        Kazoom <span class="logo__sub">Scooters</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a class="nav__link" href="index.html">Início</a>
+        <a class="nav__link" href="catalogo.html">Todos os modelos</a>
+        <a class="nav__link" href="catalogo.html?categoria=dobraveis">Dobráveis</a>
+        <a class="nav__link" href="ajuda.html?doc=guia-de-escolha" aria-current="page">Guia de escolha</a>
+        <a class="nav__link" href="ajuda.html?doc=contato">Onde estamos</a>
+      </nav>
+
+      <div class="header__acoes">
+        <button class="btn-tema" type="button" data-btn-tema aria-label="Alternar modo claro e escuro">
+          <svg class="icone-sol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>
+          </svg>
+          <svg class="icone-lua" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/>
+          </svg>
+        </button>
+
+        <button class="icone-btn" type="button" data-abrir-painel="busca" aria-label="Buscar modelos">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 21 21"/>
+          </svg>
+        </button>
+
+        <button class="icone-btn" type="button" data-abrir-painel="selecao" aria-label="Abrir minha seleção">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 7h16l-1.3 12.2A2 2 0 0 1 16.7 21H7.3a2 2 0 0 1-2-1.8L4 7Z"/><path d="M9 7V5.5a3 3 0 0 1 6 0V7"/>
+          </svg>
+          <span class="contador" data-contador data-vazio="true">0</span>
+        </button>
+
+        <button class="icone-btn" type="button" data-abrir-painel="menu" aria-label="Abrir menu" style="display:none">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+            <path d="M3 6h18M3 12h18M3 18h18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!--@FIMHEADER-->
+
+  <!--@PAINEIS-->
+  <!-- ================= PAINEL: MENU ================= -->
+  <div class="painel" data-painel="menu" role="dialog" aria-modal="true" aria-label="Menu">
+    <button class="painel__fundo" type="button" data-fechar-painel aria-label="Fechar menu"></button>
+    <div class="painel__corpo">
+      <div class="painel__topo">
+        <span class="painel__titulo">Menu</span>
+        <button class="icone-btn" type="button" data-fechar-painel aria-label="Fechar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <div class="painel__conteudo">
+        <nav class="menu-painel__lista" aria-label="Menu principal">
+          <a class="menu-painel__link" href="index.html">Início</a>
+          <a class="menu-painel__link" href="catalogo.html">Todos os modelos <span>catálogo</span></a>
+          <a class="menu-painel__link" href="catalogo.html?categoria=urbanos">Urbano</a>
+          <a class="menu-painel__link" href="catalogo.html?categoria=dobraveis">Dobráveis</a>
+          <a class="menu-painel__link" href="catalogo.html?categoria=offroad">Off-road</a>
+          <a class="menu-painel__link" href="catalogo.html?categoria=performance">Performance</a>
+          <a class="menu-painel__link" href="catalogo.html?categoria=acessorios">Acessórios</a>
+        </nav>
+        <div class="pilha-3" style="margin-top:32px">
+          <a class="link-seta" href="ajuda.html?doc=guia-de-escolha">Guia de escolha</a>
+          <a class="link-seta" href="ajuda.html?doc=garantia">Garantia e pós-venda</a>
+          <a class="link-seta" href="ajuda.html?doc=envios">Envios e retirada</a>
+          <a class="link-seta" href="ajuda.html?doc=contato">Onde estamos</a>
+        </div>
+      </div>
+      <div class="painel__base">
+        <a class="btn btn--zap btn--bloco" target="_blank" rel="noopener"
+           href="https://wa.me/5500000000000">Falar no WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= PAINEL: BUSCA ================= -->
+  <div class="painel" data-painel="busca" role="dialog" aria-modal="true" aria-label="Buscar modelos">
+    <button class="painel__fundo" type="button" data-fechar-painel aria-label="Fechar busca"></button>
+    <div class="painel__corpo">
+      <div class="painel__topo">
+        <span class="painel__titulo">Buscar</span>
+        <button class="icone-btn" type="button" data-fechar-painel aria-label="Fechar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <div class="painel__conteudo">
+        <form data-form-busca-painel role="search">
+          <div class="busca-painel__campo">
+            <input type="search" name="q" placeholder="Ex.: dobrável, off-road, capacete"
+                   aria-label="Buscar modelos" data-busca-input autocomplete="off">
+          </div>
+        </form>
+        <div data-busca-sugestoes></div>
+        <div style="margin-top:24px" data-busca-resultados></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= PAINEL: MINHA SELEÇÃO ================= -->
+  <div class="painel" data-painel="selecao" role="dialog" aria-modal="true" aria-label="Minha seleção">
+    <button class="painel__fundo" type="button" data-fechar-painel aria-label="Fechar seleção"></button>
+    <div class="painel__corpo">
+      <div class="painel__topo">
+        <span class="painel__titulo">Minha seleção</span>
+        <button class="icone-btn" type="button" data-fechar-painel aria-label="Fechar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <div class="painel__conteudo" data-selecao-corpo></div>
+      <div class="painel__base" data-selecao-base hidden>
+        <div class="pilha-3">
+          <div class="barra-selecao">
+            <span class="barra-selecao__txt" data-selecao-progresso-txt></span>
+            <div class="barra-progresso"><div class="barra-progresso__fill" data-selecao-progresso></div></div>
+          </div>
+          <div class="resumo-linha resumo-linha--total">
+            <span>Total da seleção</span>
+            <span data-selecao-total>R$ 0,00</span>
+          </div>
+          <p class="pequeno corpo-suave">
+            A compra é combinada com a loja. O frete e a disponibilidade de cada
+            cor ou tamanho são confirmados no WhatsApp antes de qualquer pagamento.
+          </p>
+          <a class="btn btn--zap btn--bloco btn--grande" target="_blank" rel="noopener"
+             data-selecao-link href="https://wa.me/5500000000000">
+            Enviar seleção no WhatsApp
+          </a>
+          <button class="btn btn--fantasma" type="button" data-limpar-selecao>Esvaziar seleção</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--@FIMPAINEIS-->
+
+  <main>
+    <div class="container">
+      <nav class="migalhas" aria-label="Você está em" style="padding-block:20px 0">
+        <a href="index.html" style="font-size:.85rem;color:var(--mudo)">Início</a>
+        <span style="color:var(--mudo)">/</span>
+        <span aria-current="page" style="font-size:.85rem;font-weight:600" data-migalha>Ajuda</span>
+      </nav>
+    </div>
+
+    <div class="container" style="padding-block:24px 72px">
+      <!-- ================= CABEÇALHO DO DOCUMENTO =================
+           Template único para Ajuda e Políticas: título à esquerda, navegação
+           lateral com resumo, corpo em linhas numeradas. -->
+      <div class="layout-catalogo" style="grid-template-columns:264px 1fr;padding-bottom:0">
+        <aside class="filtros" style="position:static;max-height:none;overflow:visible" aria-label="Seções">
+          <div class="filtro__grupo">
+            <span class="filtro__titulo">Ajuda</span>
+            <div class="pilha-2" data-tabs></div>
+          </div>
+          <div class="filtro__grupo">
+            <span class="filtro__titulo">Políticas</span>
+            <div class="pilha-2">
+              <a class="pequeno" style="text-decoration:underline;text-underline-offset:3px" href="politicas.html?doc=privacidade">Privacidade</a>
+              <a class="pequeno" style="text-decoration:underline;text-underline-offset:3px" href="politicas.html?doc=reembolso">Reembolso</a>
+              <a class="pequeno" style="text-decoration:underline;text-underline-offset:3px" href="politicas.html?doc=frete">Envio</a>
+              <a class="pequeno" style="text-decoration:underline;text-underline-offset:3px" href="politicas.html?doc=termos">Termos de uso</a>
+            </div>
+          </div>
+          <a class="btn btn--zap btn--bloco" target="_blank" rel="noopener" href="https://wa.me/5500000000000">
+            Falar no WhatsApp
+          </a>
+        </aside>
+
+        <article style="min-width:0">
+          <span class="rotulo" data-doc-tipo>Ajuda</span>
+          <h1 class="titulo-secao" style="margin-block:8px 12px" data-doc-titulo>Ajuda</h1>
+          <p class="corpo-suave" style="max-width:60ch" data-doc-resumo></p>
+          <div style="margin-top:16px" data-doc-aviso></div>
+          <hr style="border:0;border-top:1px solid var(--linha);margin-block:32px">
+          <div data-doc-corpo></div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <!--@RODAPE-->
+  <!-- ================= RODAPÉ ================= -->
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape__grade">
+        <div>
+          <a class="logo" href="index.html">Kazoom <span class="logo__sub">Scooters</span></a>
+          <p class="rodape__sobre">
+            Scooters elétricos urbanos, dobráveis e off-road, com ficha técnica
+            completa e escolha guiada. Atendimento pelo WhatsApp.
+          </p>
+          <div class="redes">
+            <a class="rede" href="https://www.instagram.com/kazoomscooters/" target="_blank" rel="noopener" aria-label="Instagram da Kazoom Scooters (@kazoomscooters)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a class="rede" href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="WhatsApp da Kazoom Scooters">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.4A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3.1.9.9-3-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.6.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.6-1.2.1-.2 0-.3 0-.5s-.6-1.5-.9-2c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.6 4 5.2 5.2 0 0 0 3.1.7 2.5 2.5 0 0 0 1.7-1.2 2 2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3Z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="rodape__titulo">Loja</h2>
+          <ul class="rodape__lista">
+            <li><a href="catalogo.html">Todos os modelos</a></li>
+            <li><a href="catalogo.html?categoria=urbanos">Urbano</a></li>
+            <li><a href="catalogo.html?categoria=dobraveis">Dobráveis</a></li>
+            <li><a href="catalogo.html?categoria=offroad">Off-road</a></li>
+            <li><a href="catalogo.html?categoria=performance">Performance</a></li>
+            <li><a href="catalogo.html?categoria=acessorios">Acessórios</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="rodape__titulo">Ajuda</h2>
+          <ul class="rodape__lista">
+            <li><a href="ajuda.html?doc=guia-de-escolha">Guia de escolha</a></li>
+            <li><a href="ajuda.html?doc=envios">Envios e retirada</a></li>
+            <li><a href="ajuda.html?doc=garantia">Garantia</a></li>
+            <li><a href="ajuda.html?doc=trocas">Trocas e devoluções</a></li>
+            <li><a href="ajuda.html?doc=contato">Onde estamos</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="rodape__titulo">Políticas</h2>
+          <ul class="rodape__lista">
+            <li><a href="politicas.html?doc=privacidade">Privacidade</a></li>
+            <li><a href="politicas.html?doc=reembolso">Reembolso</a></li>
+            <li><a href="politicas.html?doc=frete">Envio</a></li>
+            <li><a href="politicas.html?doc=termos">Termos de uso</a></li>
+            <li><a href="#" data-cookies-abrir>Preferências de cookies</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rodape__base">
+        <p>© <span data-ano>2026</span> Kazoom Scooters · CNPJ a confirmar · Showroom em Gaspar, SC (endereço a confirmar)</p>
+        <p>Projeto-base: os preços e as fichas técnicas são ilustrativos até a validação do cliente. <a href="VALIDAR.md" style="text-decoration:underline">Ver o que falta validar</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!--@FIMRODAPE-->
+
+  <!--@ZAP-->
+  <!-- ================= WHATSAPP FLUTUANTE =================
+       Canto oposto ao menu inferior, some dentro de painel. -->
+  <a class="falar-zap" id="falar-zap" target="_blank" rel="noopener" data-falar-zap
+     href="https://wa.me/5500000000000" aria-label="Falar no WhatsApp com a Kazoom Scooters" hidden>
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.4A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3.1.9.9-3-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.6.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.6-1.2.1-.2 0-.3 0-.5s-.6-1.5-.9-2c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.6 4 5.2 5.2 0 0 0 3.1.7 2.5 2.5 0 0 0 1.7-1.2 2 2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3Z"/>
+    </svg>
+  </a>
+
+  <!--@FIMZAP-->
+
+  <!--@TABBAR-->
+  <!-- ================= MENU INFERIOR (mobile) ================= -->
+  <nav class="tabbar" aria-label="Navegação fixa">
+    <a class="tabbar__item" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 12 3l9 8"/><path d="M5 10v11h14V10"/></svg>
+      <span>Início</span>
+    </a>
+    <a class="tabbar__item" href="catalogo.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16l-1.3 12.2A2 2 0 0 1 16.7 21H7.3a2 2 0 0 1-2-1.8L4 7Z"/><path d="M9 7V5.5a3 3 0 0 1 6 0V7"/></svg>
+      <span>Catálogo</span>
+    </a>
+    <a class="tabbar__item" href="https://wa.me/5500000000000" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.4A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3.1.9.9-3-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.6.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.6-1.2.1-.2 0-.3 0-.5s-.6-1.5-.9-2c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.6 4 5.2 5.2 0 0 0 3.1.7 2.5 2.5 0 0 0 1.7-1.2 2 2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3Z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+    <button class="tabbar__item" type="button" data-abrir-painel="selecao">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16l-1.3 12.2A2 2 0 0 1 16.7 21H7.3a2 2 0 0 1-2-1.8L4 7Z"/><path d="M9 7V5.5a3 3 0 0 1 6 0V7"/></svg>
+      <span>Seleção</span>
+      <span class="contador" data-contador data-vazio="true">0</span>
+    </button>
+  </nav>
+
+  <!--@FIMTABBAR-->
+
+  <!--@COOKIES-->
+  <!-- ================= COOKIES (LGPD) ================= -->
+  <div class="cookies" data-cookies-banner role="region" aria-label="Preferências de cookies" hidden>
+    <div class="container cookies__interno">
+      <p class="cookies__txt">
+        <strong>Cookies neste site</strong>
+        Usamos cookies necessários para o site funcionar. Analytics e marketing
+        só entram se você permitir.
+        <a href="#" data-cookies-abrir>Preferências</a>
+      </p>
+      <div class="cookies__acoes">
+        <button class="btn" type="button" data-cookies-acao="recusar">Recusar</button>
+        <button class="btn" type="button" data-cookies-acao="preferencias">Preferências</button>
+        <button class="btn btn--primario-cookies" type="button" data-cookies-acao="todos">Aceitar todos</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="cookies__painel" data-cookies-painel role="dialog" aria-modal="true" aria-label="Preferências de cookies">
+    <div class="cookies__caixa">
+      <div class="linha linha--fim" style="margin-bottom:16px">
+        <h2 class="titulo-secao" style="font-size:1.4rem">Preferências de cookies</h2>
+        <button class="icone-btn" type="button" data-cookies-fechar aria-label="Fechar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <p class="corpo-suave pequeno" style="margin-bottom:8px">
+        Você escolhe. Analytics e marketing começam desligados e só são ativados
+        pelo seu aceite.
+      </p>
+      <div data-cookies-corpo></div>
+      <div class="linha" style="margin-top:24px;justify-content:flex-end">
+        <button class="btn btn--secundario" type="button" data-cookies-acao="recusar">Recusar</button>
+        <button class="btn btn--secundario" type="button" data-cookies-acao="salvar">Salvar escolhas</button>
+        <button class="btn" type="button" data-cookies-acao="todos">Aceitar todos</button>
+      </div>
+    </div>
+  </div>
+
+  <!--@FIMCOOKIES-->
+
+  <script src="js/dados.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/busca.js"></script>
+  <script src="js/cookies.js"></script>
+  <script src="js/docs.js"></script>
+</body>
+</html>
